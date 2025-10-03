@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Progress - EduLearn</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="courses.html" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="progress.html" class="nav-link active">My Progress</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <div class="user-profile">
+                    <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=40&h=40&fit=crop&crop=face" alt="User Profile">
+                    <span>John Doe</span>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>My Learning Progress</h1>
+            <p>Track your learning journey and achievements</p>
+        </div>
+    </section>
+
+    <!-- Progress Overview -->
+    <section class="progress-overview">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>5</h3>
+                        <p>Courses Enrolled</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>2</h3>
+                        <p>Courses Completed</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>47</h3>
+                        <p>Hours Learned</p>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>2</h3>
+                        <p>Certificates Earned</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learning Path -->
+    <section class="learning-path">
+        <div class="container">
+            <div class="section-header">
+                <h2>Your Learning Path</h2>
+                <p>Continue your journey with personalized recommendations</p>
+            </div>
+            
+            <div class="path-container">
+                <div class="path-item completed">
+                    <div class="path-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="path-content">
+                        <h4>HTML & CSS Fundamentals</h4>
+                        <p>Completed • 100%</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="path-certificate">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                
+                <div class="path-item completed">
+                    <div class="path-icon">
+                        <i class="fas fa-check"></i>
+                    </div>
+                    <div class="path-content">
+                        <h4>JavaScript Basics</h4>
+                        <p>Completed • 100%</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 100%"></div>
+                        </div>
+                    </div>
+                    <div class="path-certificate">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                </div>
+                
+                <div class="path-item current">
+                    <div class="path-icon">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="path-content">
+                        <h4>React Development</h4>
+                        <p>In Progress • 65%</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 65%"></div>
+                        </div>
+                    </div>
+                    <div class="path-action">
+                        <button class="btn-primary btn-small">Continue</button>
+                    </div>
+                </div>
+                
+                <div class="path-item upcoming">
+                    <div class="path-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="path-content">
+                        <h4>Node.js Backend</h4>
+                        <p>Upcoming</p>
+                        <div class="progress-bar">
+                            <div class="progress-fill" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="path-action">
+                        <button class="btn-outline btn-small" disabled>Locked</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Current Courses -->
+    <section class="current-courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>My Courses</h2>
+                <p>Continue learning from where you left off</p>
+            </div>
+            
+            <div class="courses-tabs">
+                <button class="tab-btn active" data-tab="enrolled">Enrolled</button>
+                <button class="tab-btn" data-tab="completed">Completed</button>
+                <button class="tab-btn" data-tab="wishlist">Wishlist</button>
+            </div>
+            
+            <div class="tab-content">
+                <div class="tab-panel active" id="enrolled">
+                    <div class="course-progress-grid">
+                        <div class="course-progress-card">
+                            <div class="course-thumbnail">
+                                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=300&h=200&fit=crop" alt="React Development">
+                                <div class="course-overlay">
+                                    <button class="btn-play" onclick="openCourse('react-course')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="course-info">
+                                <div class="course-category">Web Development</div>
+                                <h3>React Development Masterclass</h3>
+                                <p>Build modern web applications with React</p>
+                                <div class="course-progress">
+                                    <div class="progress-info">
+                                        <span>Progress: 65%</span>
+                                        <span>12/18 lessons</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 65%"></div>
+                                    </div>
+                                </div>
+                                <div class="course-actions">
+                                    <button class="btn-primary">Continue Learning</button>
+                                    <button class="btn-outline">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="course-progress-card">
+                            <div class="course-thumbnail">
+                                <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=300&h=200&fit=crop" alt="Python Data Science">
+                                <div class="course-overlay">
+                                    <button class="btn-play" onclick="openCourse('python-course')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="course-info">
+                                <div class="course-category">Data Science</div>
+                                <h3>Python for Data Science</h3>
+                                <p>Master data analysis and machine learning</p>
+                                <div class="course-progress">
+                                    <div class="progress-info">
+                                        <span>Progress: 30%</span>
+                                        <span>6/20 lessons</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 30%"></div>
+                                    </div>
+                                </div>
+                                <div class="course-actions">
+                                    <button class="btn-primary">Continue Learning</button>
+                                    <button class="btn-outline">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="course-progress-card">
+                            <div class="course-thumbnail">
+                                <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=300&h=200&fit=crop" alt="UI/UX Design">
+                                <div class="course-overlay">
+                                    <button class="btn-play" onclick="openCourse('design-course')">
+                                        <i class="fas fa-play"></i>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="course-info">
+                                <div class="course-category">Design</div>
+                                <h3>UI/UX Design Masterclass</h3>
+                                <p>Create stunning user interfaces</p>
+                                <div class="course-progress">
+                                    <div class="progress-info">
+                                        <span>Progress: 10%</span>
+                                        <span>2/15 lessons</span>
+                                    </div>
+                                    <div class="progress-bar">
+                                        <div class="progress-fill" style="width: 10%"></div>
+                                    </div>
+                                </div>
+                                <div class="course-actions">
+                                    <button class="btn-primary">Continue Learning</button>
+                                    <button class="btn-outline">View Details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-panel" id="completed">
+                    <div class="completed-courses">
+                        <div class="completed-course">
+                            <div class="course-thumbnail">
+                                <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=100&h=100&fit=crop" alt="HTML CSS">
+                            </div>
+                            <div class="course-details">
+                                <h4>HTML & CSS Fundamentals</h4>
+                                <p>Completed on March 15, 2024</p>
+                                <div class="course-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                            <div class="course-certificate">
+                                <button class="btn-outline btn-small">
+                                    <i class="fas fa-download"></i>
+                                    Download Certificate
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="completed-course">
+                            <div class="course-thumbnail">
+                                <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=100&h=100&fit=crop" alt="JavaScript">
+                            </div>
+                            <div class="course-details">
+                                <h4>JavaScript Basics</h4>
+                                <p>Completed on April 2, 2024</p>
+                                <div class="course-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>5.0</span>
+                                </div>
+                            </div>
+                            <div class="course-certificate">
+                                <button class="btn-outline btn-small">
+                                    <i class="fas fa-download"></i>
+                                    Download Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-panel" id="wishlist">
+                    <div class="wishlist-courses">
+                        <div class="wishlist-course">
+                            <div class="course-thumbnail">
+                                <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=100&h=100&fit=crop" alt="Advanced Design">
+                            </div>
+                            <div class="course-details">
+                                <h4>Advanced UI/UX Design</h4>
+                                <p>Advanced techniques for professional designers</p>
+                                <div class="course-price">$99</div>
+                            </div>
+                            <div class="course-actions">
+                                <button class="btn-primary btn-small">Enroll Now</button>
+                                <button class="btn-outline btn-small">
+                                    <i class="fas fa-heart"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+    <section class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2>Achievements</h2>
+                <p>Celebrate your learning milestones</p>
+            </div>
+            
+            <div class="achievements-grid">
+                <div class="achievement-card earned">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h4>First Course</h4>
+                    <p>Completed your first course</p>
+                    <div class="achievement-date">March 15, 2024</div>
+                </div>
+                
+                <div class="achievement-card earned">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h4>Quick Learner</h4>
+                    <p>Completed a course in under 2 weeks</p>
+                    <div class="achievement-date">April 2, 2024</div>
+                </div>
+                
+                <div class="achievement-card locked">
+                    <div class="achievement-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h4>Streak Master</h4>
+                    <p>Learn for 30 consecutive days</p>
+                    <div class="achievement-progress">15/30 days</div>
+                </div>
+                
+                <div class="achievement-card locked">
+                    <div class="achievement-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h4>Course Master</h4>
+                    <p>Complete 10 courses</p>
+                    <div class="achievement-progress">2/10 courses</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>EduLearn</span>
+                    </div>
+                    <p>Empowering learners worldwide with quality education and innovative learning experiences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Business</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get updates on new courses and features.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button class="btn-primary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
