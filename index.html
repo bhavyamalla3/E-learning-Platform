@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-graduation-cap"></i>
+                <span>EduLearn</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="courses.html" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="progress.html" class="nav-link">My Progress</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-secondary">Sign In</button>
+                <button class="btn-primary">Get Started</button>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Learn Without Limits</h1>
+                <p class="hero-description">
+                    Discover thousands of courses, master new skills, and advance your career with our comprehensive e-learning platform.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-primary btn-large">Start Learning Today</button>
+                    <button class="btn-outline btn-large">Browse Courses</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">10,000+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Courses</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Instructors</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-laptop-code"></i>
+                        <span>Web Development</span>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-palette"></i>
+                        <span>Design</span>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-chart-line"></i>
+                        <span>Data Science</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="featured-courses">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Courses</h2>
+                <p>Handpicked courses from our top instructors</p>
+            </div>
+            <div class="courses-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400&h=250&fit=crop" alt="Web Development Course">
+                        <div class="course-overlay">
+                            <button class="btn-play"><i class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Web Development</div>
+                        <h3 class="course-title">Complete Web Development Bootcamp</h3>
+                        <p class="course-description">Master HTML, CSS, JavaScript, React, and Node.js in this comprehensive course.</p>
+                        <div class="course-meta">
+                            <div class="course-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.8</span>
+                                <span class="rating-count">(1,234)</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="fas fa-clock"></i>
+                                <span>40 hours</span>
+                            </div>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-current">$89</span>
+                                <span class="price-original">$199</span>
+                            </div>
+                            <button class="btn-primary btn-small">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=400&h=250&fit=crop" alt="Data Science Course">
+                        <div class="course-overlay">
+                            <button class="btn-play"><i class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Data Science</div>
+                        <h3 class="course-title">Python for Data Science</h3>
+                        <p class="course-description">Learn Python programming, data analysis, and machine learning from scratch.</p>
+                        <div class="course-meta">
+                            <div class="course-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                                <span class="rating-count">(856)</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="fas fa-clock"></i>
+                                <span>35 hours</span>
+                            </div>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-current">$79</span>
+                                <span class="price-original">$149</span>
+                            </div>
+                            <button class="btn-primary btn-small">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=250&fit=crop" alt="UI/UX Design Course">
+                        <div class="course-overlay">
+                            <button class="btn-play"><i class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="course-content">
+                        <div class="course-category">Design</div>
+                        <h3 class="course-title">UI/UX Design Masterclass</h3>
+                        <p class="course-description">Create stunning user interfaces and experiences with modern design principles.</p>
+                        <div class="course-meta">
+                            <div class="course-rating">
+                                <i class="fas fa-star"></i>
+                                <span>4.7</span>
+                                <span class="rating-count">(642)</span>
+                            </div>
+                            <div class="course-duration">
+                                <i class="fas fa-clock"></i>
+                                <span>28 hours</span>
+                            </div>
+                        </div>
+                        <div class="course-footer">
+                            <div class="course-price">
+                                <span class="price-current">$69</span>
+                                <span class="price-original">$129</span>
+                            </div>
+                            <button class="btn-primary btn-small">Enroll Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="courses.html" class="btn-outline">View All Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose EduLearn?</h2>
+                <p>Everything you need to succeed in your learning journey</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>High-Quality Video Content</h3>
+                    <p>Learn from expert instructors with crystal-clear video lessons and interactive content.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Learn Anywhere, Anytime</h3>
+                    <p>Access your courses on any device, whether you're at home, commuting, or traveling.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Industry Certificates</h3>
+                    <p>Earn recognized certificates upon course completion to boost your career prospects.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Community Support</h3>
+                    <p>Join a vibrant community of learners and get help from instructors and peers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>EduLearn</span>
+                    </div>
+                    <p>Empowering learners worldwide with quality education and innovative learning experiences.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Data Science</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Business</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe to get updates on new courses and features.</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button class="btn-primary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
